@@ -46,7 +46,7 @@ public class FormularioAlunoActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void carregaAluno(/*Intent dados*/) {
+    private void carregaAluno() {
         Intent dados = getIntent();
         if (dados.hasExtra(CHAVE_ALUNO)){
             setTitle(TITULO_APPBAR_EDITA_ALUNO);
