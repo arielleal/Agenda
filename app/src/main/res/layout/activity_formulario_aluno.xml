@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.Activity.FormularioAlunoActivity"
+        android:orientation="vertical"
+        tools:ignore="RedundantNamespace,ScrollViewSize">
+
+            <EditText android:id="@+id/activity.formulario.aluno.nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome"
+                android:inputType="textCapWords"
+                android:layout_margin="8dp"
+                android:importantForAutofill="no" />
+            <EditText android:id="@+id/activity.formulario.aluno.telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/telefone"
+                android:inputType="phone"
+                android:layout_margin="8dp"
+                android:importantForAutofill="no" />
+            <EditText android:id="@+id/activity.formulario.aluno.email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:layout_margin="8dp"
+                android:importantForAutofill="no" />
+
+    </LinearLayout>
+</ScrollView>
